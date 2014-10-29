@@ -1,0 +1,70 @@
+body {
+	font-family: 'helvetica', sans-serif;
+}
+
+#about {
+	font-size: 34px;
+	margin: 45px auto;
+	display: block;
+	width: 300px;
+	text-align: center;
+	color: #2B5FF3;
+}
+
+#about:hover {
+	cursor:pointer;
+	color:steelblue;
+	text-decoration:underline;
+}
+
+#mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+	background:rgba(51, 51, 51, 0.87);
+  z-index: 10;
+  display:none;
+}
+
+.popup {
+  top: 20%;
+  width: 75%;
+  position: fixed;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
+  z-index: 9999;
+  background: #fff;
+  min-height: 300px;
+  border-radius: 16px;
+  padding: 35px;
+  display:none;
+}
+
+.popup h2 {
+  font-size: 30px;
+  padding-bottom: 24px;
+}
+
+.popup p {
+  line-height: 22px;
+  margin-bottom:10px;
+}
+
+.popup h3 {
+  font-weight:bold;
+  margin-bottom:15px;
+}
+
+.popup .close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 24px;
+}
+
+.popup .close:hover {
+	cursor:pointer;
+	color: #E10000;
+}
